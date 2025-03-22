@@ -40,9 +40,9 @@ A **powerful memory editing tool** built with **Kotlin Multiplatform**, enabling
 
 ## 🔧 Installation
 1. Import the project into **Android Studio**.
-2. Follow this guide under section **"Run your application"** to configure and run the application on Windows:
-   [Compose Multiplatform Guide](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html#run-your-application)
-   📌 **Root access required!** If running on **Android**, ensure the device is **rooted**.
+2. Follow [Compose Multiplatform Guide](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html#run-your-application) 
+    section **"Run your application"** to configure and run the application.
+
 
 
 ## ⚠️ Important Notes
