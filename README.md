@@ -22,14 +22,6 @@ A **Memory editing tool** built with **Kotlin Multiplatform**, enabling users to
   <img src="assets/screenshots/6.png" width="16%">
 </p>
 
-## 🛠️ Tech Stack
-- [**MVVM Architecture**](https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-android/) - Organizes code for better separation of concerns.
-- [**Compose Multiplatform**](https://developer.android.com/jetpack/compose) - Declarative UI framework for Android, Desktop, and beyond.
-- [**Kotlin Multiplatform**](https://kotlinlang.org/docs/multiplatform.html) - Enables seamless code sharing between Android and PC.
-- [**Koin**](https://insert-koin.io/) - Lightweight dependency injection framework for Kotlin.
-- [**JNA (Java Native Access)**](https://github.com/java-native-access/jna) - Access to native system libraries like `libc` on Android.
-- [**JNA Platform**](https://github.com/java-native-access/jna) - Provides Java bindings for `Win32` API on Windows.
-
 ## 🎮 Usage Walkthrough (e.g., `doom`)
 - 1️⃣ **Select a Process** – Pick a game or app from the active process list
 - 2️⃣ **Scan Memory** – Input a target value (e.g., `100` for health)
@@ -37,6 +29,14 @@ A **Memory editing tool** built with **Kotlin Multiplatform**, enabling users to
 - 4️⃣ **Filter Addresses** – Perform another scan to filter addresses that match the new value (e.g., `83`)
 - 5️⃣ **Adjust the Address Value** – Change the identified value (e.g., modify `83` → `999`)
 - 6️⃣ **Verify Changes** – Check if the modification is reflected in the game!
+
+## 🛠️ Tech Stack
+- [**MVVM Architecture**](https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-android/) - Organizes code for better separation of concerns.
+- [**Compose Multiplatform**](https://developer.android.com/jetpack/compose) - Declarative UI framework for Android, Desktop, and beyond.
+- [**Kotlin Multiplatform**](https://kotlinlang.org/docs/multiplatform.html) - Enables seamless code sharing between Android and PC.
+- [**Koin**](https://insert-koin.io/) - Lightweight dependency injection framework for Kotlin.
+- [**JNA (Java Native Access)**](https://github.com/java-native-access/jna) - Access to native system libraries like `libc` on Android.
+- [**JNA Platform**](https://github.com/java-native-access/jna) - Provides Java bindings for `Win32` API on Windows.
 
 ## 🔧 Installation
 1. Import the project into **Android Studio**.
