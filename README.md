@@ -3,14 +3,14 @@
 A **powerful memory editing tool** built with **Kotlin Multiplatform**, enabling users to scan and modify values in a program's memory effortlessly. Supports both **PC (Windows)** and **Android (Root Required)**.
 
 ## 🚀 Features
-- 🌐 **Cross-platform** – Works on **Windows** and **rooted Android**  
+- 🌐 **Cross-platform** – Works on **Windows** and **rooted Android**
 - 📋 **List Running Processes** – Identify all active processes
-- 🔢 **Supports Multiple Data Types** – Scan for **Integer, Float, Long, Double, and String**  
+- 🔢 **Supports Multiple Data Types** – Scan for **Integer, Float, Long, Double, and String**
 - 🔍 **Scan for Target Values** – Locate specific memory addresses (e.g., `Health = 100`)
 - 🧹 **Filter Results** – Refines candidate addresses by tracking changes (e.g., `100` → `83`)
 - ✏️ **Edit Memory** – Modifies memory address values (e.g., setting health to `999`)
 - ⚡ **Optimized Searches** – Utilizes **Boyer-Moore algorithm** for ultra-fast value searching
-- 🏎️ **Lightning-Fast Performance**: **Scans only readable memory regions**, avoiding scanning each individual page
+- 🏎️ **Lightning-Fast Performance** – **Scans only readable memory regions**, avoiding scanning each individual page
 
 ## 📸 Screenshots
 <p align="center">
@@ -31,17 +31,17 @@ A **powerful memory editing tool** built with **Kotlin Multiplatform**, enabling
 - [**JNA Platform**](https://github.com/java-native-access/jna) - Provides Java bindings for `Win32` API on Windows.
 
 ## 🎮 Usage Walkthrough (e.g., `doom`)
-- 1️⃣ **Select a Process** – Pick a game or app from the active process list.
-- 2️⃣ **Scan Memory** – Input a target value (e.g., `100` for health).
-- 3️⃣ **Modify the Value** – Take action in-game to alter the value (e.g., take damage so health drops to `83`).
-- 4️⃣ **(Optional) Filter Addresses** – Perform another scan to filter addresses that match the new value (e.g., `83`).
-- 5️⃣ **Adjust the Address Value** – Change the identified value (e.g., modify `83` → `999`).
+- 1️⃣ **Select a Process** – Pick a game or app from the active process list
+- 2️⃣ **Scan Memory** – Input a target value (e.g., `100` for health)
+- 3️⃣ **Modify the Value** – Take action in-game to alter the value (e.g., take damage so health drops to `83`)
+- 4️⃣ **(Optional) Filter Addresses** – Perform another scan to filter addresses that match the new value (e.g., `83`)
+- 5️⃣ **Adjust the Address Value** – Change the identified value (e.g., modify `83` → `999`)
 - 6️⃣ **Verify Changes** – Check if the modification is reflected in the game!
 
 ## 🔧 Installation
 1. Import the project into **Android Studio**.
 2. Follow [Compose Multiplatform Guide](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html#run-your-application) 
-    section **"Run your application"** to configure and run the application.
+    **"Run your application"** section to configure and run the application.
 
 
 
