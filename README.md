@@ -38,7 +38,7 @@ A **powerful memory editing tool** built with **Kotlin Multiplatform**, enabling
 - 5️⃣ **Adjust the Address Value** – Change the identified value (e.g., modify `83` → `999`).
 - 6️⃣ **Verify Changes** – Check if the modification is reflected in the game!
 
-## 📥 Installation
+## 🔧 Installation
 1. Import the project into **Android Studio**.
 2. Follow this guide under section **"Run your application"** to configure and run the application on Windows:
    [Compose Multiplatform Guide](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html#run-your-application)
