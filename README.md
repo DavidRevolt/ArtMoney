@@ -34,7 +34,7 @@ A **Memory editing tool** built with **Kotlin Multiplatform**, enabling users to
 - 1️⃣ **Select a Process** – Pick a game or app from the active process list
 - 2️⃣ **Scan Memory** – Input a target value (e.g., `100` for health)
 - 3️⃣ **Modify the Value** – Take action in-game to alter the value (e.g., take damage so health drops to `83`)
-- 4️⃣ **(Optional) Filter Addresses** – Perform another scan to filter addresses that match the new value (e.g., `83`)
+- 4️⃣ **Filter Addresses** – Perform another scan to filter addresses that match the new value (e.g., `83`)
 - 5️⃣ **Adjust the Address Value** – Change the identified value (e.g., modify `83` → `999`)
 - 6️⃣ **Verify Changes** – Check if the modification is reflected in the game!
 
