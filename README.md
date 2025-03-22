@@ -10,7 +10,7 @@ A **Memory editing tool** built with **Kotlin Multiplatform**, enabling users to
 - 🧹 **Filter Results** – Refines candidate addresses by tracking changes (e.g., `100` → `83`)
 - ✏️ **Edit Memory** – Modifies memory address values (e.g., setting health to `999`)
 - ⚡ **Optimized Searches** – Utilizes **Boyer-Moore algorithm** for ultra-fast value searching
-- 🏎️ **Lightning-Fast Performance** – **Scans only readable memory regions**, avoiding scanning each individual page
+- 🏎️ **Lightning-Fast Performance** – Scans only **readable memory regions**, avoiding scanning each individual page
 
 ## 📸 Screenshots
 <p align="center">
