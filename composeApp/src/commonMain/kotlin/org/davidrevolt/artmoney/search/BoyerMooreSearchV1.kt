@@ -15,7 +15,7 @@ class BoyerMooreSearchV1 : SearchAlgorithm {
         val bufferSize = buffer.size
 
         // Build bad character table
-        val badChar = IntArray(256) { patternSize }
+        val badChar = IntArray(256) { patternSize } // 256 - all possible byte values 0x00 to 0xFF
         for (i in 0 until patternSize - 1) {
             badChar[target[i].toInt() and 0xFF] = patternSize - 1 - i
         }
@@ -33,7 +33,13 @@ class BoyerMooreSearchV1 : SearchAlgorithm {
             if (j < 0) {
                 // Match found
                 results.add(baseAddress + sourcePos)
-                // Advance by 1 to find overlapping matches
+                /*
+                * Advance by 1 to find overlapping matches, why?:
+                * Buffer:  A  B  A  B  A
+                * Index:   0  1  2  3  4
+                * Pattern: A  B  A
+                * if we use sourcePos += patternSize we will miss the match at index 2!
+                * */
                 sourcePos++
             } else {
                 // No match - use bad character rule to skip ahead
@@ -44,5 +50,4 @@ class BoyerMooreSearchV1 : SearchAlgorithm {
         }
         return results
     }
-
 }
