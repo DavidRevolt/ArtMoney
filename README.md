@@ -1,4 +1,4 @@
-#  <img src="composeApp/src/commonMain/composeResources/drawable/app_window_icon.png" width="30" height="30" alt="App Icon" style="vertical-align:middle;"> ArtMoney
+#  <img src="composeApp/src/commonMain/composeResources/drawable/app_window_icon.png" width="25" height="25" alt="App Icon" style="vertical-align:middle;"> ArtMoney
 
 A **powerful memory editing tool** built with **Kotlin Multiplatform**, enabling users to scan and modify values in a program's memory effortlessly. Supports both **PC (Windows)** and **Android (Root Required)**.
 
