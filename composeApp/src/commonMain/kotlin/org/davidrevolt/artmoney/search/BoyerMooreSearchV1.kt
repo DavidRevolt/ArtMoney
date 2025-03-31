@@ -15,7 +15,9 @@ class BoyerMooreSearchV1 : SearchAlgorithm {
         val bufferSize = buffer.size
 
         // Build bad character table
-        val badChar = IntArray(256) { patternSize } // 256 - all possible byte values 0x00 to 0xFF
+        // 256 - all possible byte values 0x00 to 0xFF
+        // patternSize - Default skip is pattern length
+        val badChar = IntArray(256) { patternSize  }
         for (i in 0 until patternSize - 1) {
             badChar[target[i].toInt() and 0xFF] = patternSize - 1 - i
         }
@@ -43,7 +45,7 @@ class BoyerMooreSearchV1 : SearchAlgorithm {
                 sourcePos++
             } else {
                 // No match - use bad character rule to skip ahead
-                val currentByte = buffer[sourcePos + patternSize - 1].toInt() and 0xFF
+                val currentByte = buffer[sourcePos + patternSize - 1].toInt() and 0xFF // Don't use [sourcePos + j]
                 val shift = badChar[currentByte].coerceAtLeast(1)
                 sourcePos += shift
             }

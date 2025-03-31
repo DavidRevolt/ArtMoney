@@ -50,6 +50,7 @@ class DesktopMemoryEditor(
                     region.startAddress,
                     region.regionSize
                 )
+
                 addresses.addAll(withContext(defaultDispatcher) {
                     searchAlgorithm.search(
                         buffer.array(),
